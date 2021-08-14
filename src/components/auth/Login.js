@@ -17,7 +17,7 @@ const Login = () => {
                         placeholder="challenge@alkemy.org"
                     ></input>
                     <div id="emailHelp" class="form-text">
-                        Remember! It is challenge@alkemy.org
+                        Remember! It is challenge@alkemy.org!
                     </div>
                 </div>
                 <div class="mb-3">
