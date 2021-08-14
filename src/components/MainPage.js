@@ -13,8 +13,6 @@ const MainPage = () => {
         { id: id(), nombre: "2" },
         { id: id(), nombre: "3" },
         { id: id(), nombre: "4" },
-        { id: id(), nombre: "5" },
-        { id: id(), nombre: "6" },
     ])
 
     //useState para agregar, quitar y nose si editar
