@@ -9,10 +9,10 @@ const MainPage = () => {
 
     //crear listado de heroes
     const [heroes, guardarHeroes] = useState([
-        { id: id(), nombre: "1" },
-        { id: id(), nombre: "2" },
-        { id: id(), nombre: "3" },
-        { id: id(), nombre: "4" },
+        { id: id(), nombre: "HEROE 1" },
+        { id: id(), nombre: "HEROE 2" },
+        { id: id(), nombre: "HEROE 3" },
+        { id: id(), nombre: "HEROE 4" },
     ])
 
     //useState para agregar, quitar y nose si editar
@@ -20,11 +20,11 @@ const MainPage = () => {
 
     return (
         <div>
-            <div>
-                <Link to={"/"} className="enlace-cuenta">
-                    /login
-                </Link>
+            <Link to={"/"} className="enlace-cuenta">
+                /login
+            </Link>
 
+            <div>
                 {heroes.map((heroe) => (
                     <Heroe
                         key={heroe.id}
