@@ -25,8 +25,6 @@ const Heroe = ({
 
     return (
         <div>
-            {/* <div className="form-container"> */}
-            {/* <div className="form"> */}
             <div class="row">
                 <div class="col-sm-6">
                     <div class="card">
@@ -37,32 +35,25 @@ const Heroe = ({
                             </p>
                             {heroes ? (
                                 <button
-                                    class="btn btn-primary"
+                                    className="btn btn-primary"
                                     type="button"
-                                    className=" btn btn-primario btn-block-25"
                                     onClick={() => agregarHeroeAlCarrito(id)}
                                 >
                                     Add to Chart
                                 </button>
                             ) : (
                                 <button
-                                    class="btn btn-primary"
+                                    className="btn btn-primary"
                                     type="button"
-                                    className="btn btn-primario btn-block-25"
                                     onClick={() => eliminarHeroe(id)}
                                 >
                                     Delete
                                 </button>
                             )}
-                            <a href="#" class="btn btn-primary">
-                                Go somewhere
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            {/* </div> */}
-            {/* </div> */}
         </div>
     )
 }
